@@ -6,7 +6,7 @@
 
 /* global WorkerGlobalScope */
 'use strict';
-// const Aes = require('./aes.js'); // ≡ import Aes from 'aes.js'; uncomment to use in Node.js
+const Aes = require('./aes.js'); // ≡ import Aes from 'aes.js'; uncomment to use in Node.js
 
 
 /**

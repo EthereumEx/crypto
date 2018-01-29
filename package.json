@@ -1,9 +1,15 @@
 {
     "name": "crypto-libraries",
     "description": "Collection of cryptographic routines",
-    "repository": { "type": "git", "url": "https://github.com/chrisveness/crypto" },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chrisveness/crypto"
+    },
     "author": "Chris Veness",
-    "version": "0.0.0",
+    "contributors": [
+        "Shawn Cicoria"
+    ],
+    "version": "0.1.0",
     "scripts": {
         "test": "mocha test/*.js",
         "lint": "eslint *.js"
@@ -19,25 +25,63 @@
             "node": true,
             "mocha": true
         },
-        "parserOptions": { "ecmaVersion": 2015 },
+        "parserOptions": {
+            "ecmaVersion": 2015
+        },
         "extends": "eslint:recommended",
         "rules": {
-            "array-bracket-spacing": [ "error", "always", { "singleValue": false } ],
-            "comma-dangle": [ "error", "always-multiline" ],
-            "curly": [ "error", "multi-line" ],
-            "indent": [ "error", 4, { "SwitchCase": 1 } ],
-            "key-spacing": [ "error", { "align": "value" } ],
+            "array-bracket-spacing": [
+                "error",
+                "always",
+                {
+                    "singleValue": false
+                }
+            ],
+            "comma-dangle": [
+                "error",
+                "always-multiline"
+            ],
+            "curly": [
+                "error",
+                "multi-line"
+            ],
+            "indent": [
+                "error",
+                4,
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "key-spacing": [
+                "error",
+                {
+                    "align": "value"
+                }
+            ],
             "no-console": "warn",
             "no-irregular-whitespace": "warn",
             "no-redeclare": "warn",
             "no-shadow": "warn",
             "no-unused-vars": "warn",
             "no-var": "error",
-            "object-curly-spacing": [ "error", "always" ],
+            "object-curly-spacing": [
+                "error",
+                "always"
+            ],
             "prefer-const": "error",
-            "quotes": [ "error", "single", "avoid-escape" ],
-            "semi": [ "error", "always" ],
-            "strict": [ "error", "global" ]
+            "quotes": [
+                "error",
+                "single",
+                "avoid-escape"
+            ],
+            "semi": [
+                "error",
+                "always"
+            ],
+            "strict": [
+                "error",
+                "global"
+            ]
         }
     }
 }
